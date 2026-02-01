@@ -1,33 +1,29 @@
-# Diplomado Estadística Deportiva
+# Diplomado Estadística Deportiva 2026
 
-Este repositorio contiene los cuadernos Jupyter para el Diplomado en Estadística Deportiva.
+Repositorio oficial del módulo "Gestión y Análisis de Bases de Datos Deportivos".
 
-## 🚀 Cómo abrir en Google Colab
+## 🚀 Acceso Rápido a las Clases (Google Colab)
 
-Para abrir estos cuadernos directamente en Google Colab:
+Haz clic en el botón de **"Open in Colab"** o en los enlaces para abrir cada cuaderno directamente.
 
-1.  Instala la extensión de Chrome **[Open in Colab](https://chrome.google.com/webstore/detail/open-in-colab/iogfkhleblhcpcekbiedikdehleodpjo)** (Opcional pero recomendado).
-2.  O cambia manualmente la URL del archivo en GitHub:
-    *   Cambia `github.com` por `colab.research.google.com/github`.
-    *   Ejemplo: `https://github.com/ijmarquezl/Diplomado_EstDeportiva_BDD/blob/master/clase1_dikw_exploration.ipynb` -> `https://colab.research.google.com/github/ijmarquezl/Diplomado_EstDeportiva_BDD/blob/master/clase1_dikw_exploration.ipynb`.
+| Clase | Tema | Enlace a Colab |
+| :--- | :--- | :--- |
+| **1** | **La Revolución de los Datos (DIKW)** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ijmarquezl/Diplomado_EstDeportiva_BDD/blob/master/clase1_dikw_exploration.ipynb) |
+| **2** | **Pensando en Tablas (Modelo Relacional)** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ijmarquezl/Diplomado_EstDeportiva_BDD/blob/master/clase2_pensando_en_tablas.ipynb) |
+| **3** | **Acceso "No-ETL" (Limpieza de Datos)** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ijmarquezl/Diplomado_EstDeportiva_BDD/blob/master/clase3_acceso_no_etl.ipynb) |
+| **4** | **Interrogando la BDD (SQL Queries)** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ijmarquezl/Diplomado_EstDeportiva_BDD/blob/master/clase4_interrogando_bdd.ipynb) |
+| **5** | **Estadística Descriptiva con SQL** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ijmarquezl/Diplomado_EstDeportiva_BDD/blob/master/clase5_estadistica_sql.ipynb) |
+| **6** | **Visualización Táctica** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ijmarquezl/Diplomado_EstDeportiva_BDD/blob/master/clase6_visualizacion_tactica.ipynb) |
+| **7** | **El Reto del Tiempo Real (Streaming)** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ijmarquezl/Diplomado_EstDeportiva_BDD/blob/master/clase7_tiempo_real.ipynb) |
+| **8** | **Métricas Avanzadas (Proyecto Final)** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ijmarquezl/Diplomado_EstDeportiva_BDD/blob/master/clase8_metricas_decision.ipynb) |
 
-## 🔑 Configuración de Kaggle
+---
 
-Para descargar los datasets necesarios en los cuadernos, necesitarás una cuenta de Kaggle y configurar tu API Key.
+## 🔑 Requisitos Previos (Kaggle)
 
-### 1. Crear cuenta
-Si no tienes una, regístrate en [kaggle.com](https://www.kaggle.com/).
+Para ejecutar estos cuadernos, necesitarás una cuenta de Kaggle y tu API Key.
 
-### 2. Generar "Legacy API Key"
-Esta es la forma más sencilla de obtener el archivo de configuración:
-
-1.  Ve a la configuración de tu cuenta: Haz clic en tu foto de perfil (arriba a la derecha) -> **Settings**.
-2.  Desplázate hacia abajo hasta la sección **API**.
-3.  Si ya tienes un token antiguo y no lo recuerdas, haz clic en **"Expire Legacy API Key"**.
-4.  Haz clic en el botón **"Create Legacy API Key"**.
-5.  Esto descargará automáticamente un archivo llamado `kaggle.json`.
-
-### 3. Usar en Colab
-Cuando ejecutes los cuadernos en Colab, usualmente se te pedirá subir este archivo `kaggle.json` para autenticarte y descargar los datos.
-
-> **⚠️ IMPORTANTE:** Nunca compartas tu archivo `kaggle.json` ni lo subas a repositorios públicos. Contiene tus credenciales privadas.
+1.  Ve a [Kaggle Settings](https://www.kaggle.com/settings).
+2.  En la sección **API**, haz clic en **"Create Legacy API Key"**.
+3.  Se descargará un archivo `kaggle.json`.
+4.  Ten este archivo a la mano, los cuadernos te pedirán subirlo para descargar los datasets automáticamente.
