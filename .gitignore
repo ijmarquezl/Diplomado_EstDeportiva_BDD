@@ -1,0 +1,18 @@
+# Ignore everything
+*
+
+# Allow directories so we can find files inside them
+!*/
+
+# Allow specific file types
+!*.ipynb
+!*.md
+!.gitignore
+
+# Explicitly ignore sensitive files (redundant but safe)
+.env
+kaggle.json
+.kaggle/
+__pycache__/
+.venv/
+.git/
