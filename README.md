@@ -16,6 +16,7 @@ Haz clic en el botón de **"Open in Colab"** o en los enlaces para abrir cada cu
 | **6** | **Visualización Táctica** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ijmarquezl/Diplomado_EstDeportiva_BDD/blob/master/clase6_visualizacion_tactica.ipynb) |
 | **7** | **El Reto del Tiempo Real (Streaming)** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ijmarquezl/Diplomado_EstDeportiva_BDD/blob/master/clase7_tiempo_real.ipynb) |
 | **8** | **Métricas Avanzadas (Proyecto Final)** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ijmarquezl/Diplomado_EstDeportiva_BDD/blob/master/clase8_metricas_decision.ipynb) |
+| **8B** | **Reto Final NHL (Moneyball)** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ijmarquezl/Diplomado_EstDeportiva_BDD/blob/master/clase8_reto_final.ipynb) |
 
 ---
 
